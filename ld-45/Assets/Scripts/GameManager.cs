@@ -201,6 +201,8 @@ public class GameManager : MonoBehaviour
         SetBlood(blood - 1);
         if (blood <= 0)
         {
+            var audioSource = GetComponent<AudioSource>();
+            audioSource.Stop();
             SceneManager.LoadScene("End");
         }
     }

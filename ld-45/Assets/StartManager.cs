@@ -44,7 +44,7 @@ public class StartManager : MonoBehaviour
         {
             text.text = "Up/Down (or W/S): Choose who to talk to.\n\n" +
                         "Left/Right (or A/D): Choose what to talk about.\n\n" +
-                        "Tap Enter (or J, Left Mouse Click) at the right time to yell out some buzzword and profit.";
+                        "Tap Space (or J, Left Mouse Click) at the right time to yell out some buzzword and profit.";
 
         } else
         {
