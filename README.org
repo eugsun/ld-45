@@ -1,0 +1,29 @@
+* Ludum Dare 45: Start with Nothing
+
+Room was dark. Lights on.
+
+It's a conference room with 3 people. A secretary. Two partners. You only know one of them.
+
+You walk in.
+
+"
+Excuse the mess. We use this conference room a lot.
+So, what do you have for us today?
+"
+
+You have nothing, only buzzwords. And you need to get a "yes" commitment for investment.
+
+** Buzzwords
+- Red: AI => Machine learning => Deep learning => Neural Network
+- Green: Bitcoin => Blockchain => Altcoin => Satoshi
+- Blue: Cloud => AWS => Microservices => Containers
+
+** Actions
+- A: Nod
+- B: Action
+- Left/Right: Select between 3 actions
+
+** Stages
+1. Coffee chat
+2. Meal
+3. Conference room
