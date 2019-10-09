@@ -19,11 +19,13 @@ You have nothing, only buzzwords. And you need to get a "yes" commitment for inv
 - Blue: Cloud => AWS => Microservices => Containers
 
 ** Actions
-- A: Nod
+~~- A: Nod~~
 - B: Action
 - Left/Right: Select between 3 actions
+- Up/Down: Select target to talk
 
 ** Stages
-1. Coffee chat
-2. Meal
-3. Conference room
+~~1. Coffee chat~~
+~~2. Meal~~
+~~3. Conference room~~
+No time for stages.

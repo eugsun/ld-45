@@ -11,10 +11,23 @@ public class EndManager : MonoBehaviour
     public GameObject conclusion;
     private TMPro.TextMeshProUGUI conclusionText;
 
+    public GameObject arrow;
+    public bool allowRestart = false;
+
     private void Awake()
     {
         amountText = amountObj.GetComponent<TMPro.TextMeshProUGUI>();
         conclusionText = conclusion.GetComponent<TMPro.TextMeshProUGUI>();
+        arrow.SetActive(false);
+        allowRestart = false;
+        StartCoroutine("EnableRestart");
+    }
+
+    IEnumerator EnableRestart()
+    {
+        yield return new WaitForSeconds(1);
+        allowRestart = true;
+        arrow.SetActive(true);
     }
 
     void Start()
@@ -41,11 +54,12 @@ public class EndManager : MonoBehaviour
 
     void Update()
     {
-/*        if (Input.GetButtonUp("Fire1"))
+        if (allowRestart && Input.GetButtonUp("Fire1"))
         {
             Destroy(GameManager.inst);
+            GameManager.inst = null;
             SceneManager.LoadScene("Game", LoadSceneMode.Single);
         }
-*/    }
+    }
 
 }
